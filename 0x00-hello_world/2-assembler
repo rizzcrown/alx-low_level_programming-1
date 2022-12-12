@@ -1,2 +1,3 @@
 #!/bin/bash
-gcc $CFILE -S
+export CFILE
+gcc -S $CFILE 
